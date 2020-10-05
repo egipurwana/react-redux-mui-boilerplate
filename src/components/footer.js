@@ -35,17 +35,20 @@ class Footer extends Component {
 
     render() {
         return (
-            <Box className='main-footer'>
-            <div className='logo-wrapper'>Header <Icon>star</Icon></div>
-            <div className='nav-link'>
-                <ul>
-                    <li><Link to='./'>Home</Link></li>
-                    <li><Link to='/dashboard'>Dashboard</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/login'>Login</Link></li>
-                </ul>
+            <div className='main-footer'>
+                <span className='footer-label'>2020 Pitchplay</span>
             </div>
-            </Box>
+            // <Box className='main-footer'>
+            // <div className='logo-wrapper'>Header <Icon>star</Icon></div>
+            // <div className='nav-link'>
+            //     <ul>
+            //         <li><Link to='./'>Home</Link></li>
+            //         <li><Link to='/dashboard'>Dashboard</Link></li>
+            //         <li><Link to='/about'>About</Link></li>
+            //         <li><Link to='/login'>Login</Link></li>
+            //     </ul>
+            // </div>
+            // </Box>
         )
     }
 }

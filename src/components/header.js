@@ -36,7 +36,8 @@ class Header extends Component {
     render() {
         return (
             <Box className='main-header'>
-            <div className='logo-wrapper'>Header <Icon>star</Icon></div>
+            <div className='logo-wrapper'>Pitchplay</div>
+            {/* <Icon>star</Icon> */}
             <div className='nav-link'>
                 <ul>
                     <li><Link to='./'>Home</Link></li>
